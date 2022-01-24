@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.StartPop.DayNight" parent="Theme.StartPop"/>
+
+    <!-- Base application theme. -->
+    <style name="Theme.StartPop" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/reply_blue_700</item>
+        <item name="colorPrimaryVariant">@color/reply_blue_800</item>
+        <item name="colorSecondary">@color/reply_orange_500</item>
+        <item name="colorSecondaryVariant">@color/reply_orange_400</item>
+
+        <item name="android:colorBackground">@color/reply_blue_50</item>
+        <item name="colorSurface">@color/reply_white_50</item>
+        <item name="colorPrimarySurfaceVariant">?attr/colorPrimaryVariant</item>
+        <item name="colorError">@color/reply_red_400</item>
+
+        <item name="colorOnPrimary">@color/reply_white_50</item>
+        <item name="colorOnSecondary">@color/reply_black_900</item>
+        <item name="colorOnBackground">@color/reply_black_900</item>
+        <item name="colorOnSurface">@color/reply_black_900</item>
+        <item name="colorOnError">@color/reply_black_900</item>
+
+        <item name="scrimBackground">@color/reply_white_50_alpha_060</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/reply_blue_50_alpha_060</item>
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+
+        <!-- Customize your theme here. -->
+
+        <!--System/Platform attributes-->
+        <item name="android:windowBackground">?android:colorBackground</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline2">@style/TextAppearance.Reply.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.Reply.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.Reply.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.Reply.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.Reply.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Reply.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.Reply.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.Reply.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.Reply.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Reply.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Reply.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.Reply.Overline</item>
+
+    </style>
+
+
+    <style name="Theme.StartPop.AppBarOverlay"  parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.StartPop.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

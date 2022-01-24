@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">StartPop</string>
+
+    <!-- Menu Main -->
+    <string name="search">Búsqueda</string>
+    <string name="content_description_search">Search icon</string>
+    <!-- HomeMovie -->
+    <string name="page_title">StartPop.</string>
+    <string name="startpop">StartPop</string>
+    <string name="movie">Películas</string>
+    <string name="programme">Programas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
